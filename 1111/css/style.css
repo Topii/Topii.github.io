@@ -1,0 +1,189 @@
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+}
+
+header {
+
+}
+
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  height: 44px;
+  list-style: none;
+  margin: 0;
+
+  background: #333;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content:center;
+}
+
+.navigation li {
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo-img {
+  width: 26px;
+  height: 26px;
+  padding-right: 35px;
+
+}
+
+.navigation a {
+  width: 120px;
+  text-decoration: none;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  padding: 0.8em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: darken(grey, 2%);
+}
+
+@media all and (max-width: 50px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    /*border-top: 1px solid rgba(255,255,255,0.3);*/
+    border-bottom: 1px solid rgba(0,0,0,0.1);*/
+  }
+
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+/*================HOME====================== */
+.AP8 {
+  height: 650px;
+  width: 1349px;
+}
+
+.X {
+  height: 600px;
+  width: 1349px;
+}
+
+.watch {
+  height: 600px;
+  width: 1349px;
+}
+
+.k4 {
+  height: 600px;
+  width: 1349px;
+}
+
+.OS {
+  height: 600px;
+  width: 1349px;
+}
+
+/*===============IPHONE8==============*/
+.DUZ {
+  height: 1843px;
+  width: 1349px;
+  display: flex;
+}
+.XAP {
+  height: 558px;
+  width: 1349px;
+  display: flex;
+}
+.r {
+  height: 1639px;
+  width: 1349px;
+  display: flex;
+}
+.p {
+  height: 530px;
+  width: 1349px;
+}
+
+/*==============IPHONE X============*/
+.pp {
+  height: 820px;
+  width: 1349px;
+}
+.oo {
+  height: 520px;
+  width: 1349px;
+}
+.ii {
+  height: 980px;
+  width: 1349px;
+}
+
+/*================MAC===================*/
+.PRO {
+  height: 900px;
+  width: 1349px;
+}
+
+.iMAC {
+  height: 900px;
+  width: 1349px;
+}
+
+.MACB {
+  height: 750px;
+  width: 1349px;
+}
+
+.MacBook {
+  height: 750px;
+  width: 1349px;
+}
+.CPMac {
+  height: 650px;
+  width: 1349px;
+}
+.AKS {
+  height: 650px;
+  width: 1349px;
+}
+.SHC {
+  height: 750px;
+  width: 1349px;
+}
+.BZ {
+  height: 750px;
+  width: 1349px;
+}
+
+
+.
